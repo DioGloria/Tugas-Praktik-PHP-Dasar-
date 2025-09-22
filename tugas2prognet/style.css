@@ -107,7 +107,7 @@ button.submit {
   cursor: pointer;
   transition: 0.25s ease;
   width: 150px;
-  align-self: center; /* biar ke tengah */
+  align-self: center;
 }
 
 button.submit:hover {
@@ -127,8 +127,8 @@ button.submit:hover {
   line-height: 1.5;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 
-  max-height: 250px;   /* tinggi maksimum */
-  overflow-y: auto;    /* scroll vertikal jika konten lebih panjang */
+  max-height: 250px;
+  overflow-y: auto;
 }
 
 /* Judul hasil */
@@ -197,4 +197,5 @@ footer {
   font-size: 0.85rem;
   color: #64748b;
   text-align: center;
+
 }
